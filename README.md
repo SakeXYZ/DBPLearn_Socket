@@ -1,83 +1,41 @@
+# 🗨️ Simple Python Chat  
 
----
+### Features  
+- Multi-client chat server (`server.py`)  
+- Real-time messaging with threading  
+- `/quit` command to disconnect  
 
-### English Version (README-en.md)
-```markdown
-# Simple Chat Application
+### Quick Start  
+1. Start the server (default: `0.0.0.0:12345`):  
+   `python server.py`  
+2. Connect clients:  
+   `python client.py`  
 
-## Features
-- Multi-client chat server
-- Real-time messaging
-- Thread-based architecture
-- Simple commands (`/quit` to exit)
+### Configuration  
+Edit in both files:  
+- `HOST = '0.0.0.0'` → Listen on all interfaces  
+- `PORT = 12345` → Custom port (ensure firewall allows it)  
 
-## Quick Start
-1. Run the server:
-   ```bash
-   python server.py
-   ```
-2. Connect clients:
-   ```bash
-   python client.py
-   ```
+---  
+**Language**: [Русский](/README-ru.md) | <img src="https://flagcdn.com/w20/ru.png" width="20" alt="Russian">  
 
-## Configuration
-Edit these variables in the code:
-```python
-HOST = '0.0.0.0'  # Server IP
-PORT = 12345      # Server port
-```
+# 🗨️ Простой чат на Python  
 
-[View in Russian](/README-ru.md) | [Смотреть на русском](/README-ru.md)
-```
+### Возможности  
+- Сервер для многопользовательского чата (`server.py`)  
+- Обмен сообщениями в реальном времени  
+- Команда `/quit` для отключения  
 
----
+### Быстрый старт  
+1. Запустите сервер (по умолчанию: `0.0.0.0:12345`):  
+   `python server.py`  
+2. Подключите клиенты:  
+   `python client.py`  
 
-### Russian Version (README-ru.md)
-```markdown
-# Простое чат-приложение
+### Настройка  
+Измените в обоих файлах:  
+- `HOST = '0.0.0.0'` → Доступ с любого IP  
+- `PORT = 12345` → Порт (должен быть открыт в брандмауэре)  
 
-## Возможности
-- Многопользовательский сервер
-- Обмен сообщениями в реальном времени
-- Потоковая архитектура
-- Простые команды (`/quit` для выхода)
-
-## Быстрый старт
-1. Запустите сервер:
-   ```bash
-   python server.py
-   ```
-2. Подключите клиенты:
-   ```bash
-   python client.py
-   ```
-
-## Настройка
-Измените переменные в коде:
-```python
-HOST = '0.0.0.0'  # IP сервера
-PORT = 12345      # Порт сервера
-```
-
-[View in English](/README-en.md) | [Читать по-английски](/README-en.md)
-```
-
----
-
-### Implementation notes:
-1. Place both files in your project root
-2. The links will work if:
-   - Files are hosted on GitHub/GitLab
-   - Or served via web server with proper routing
-3. For local use, you can create a simple HTML switcher:
-
-```html
-<!-- language-switcher.html -->
-<div style="text-align: center; margin: 20px;">
-  <a href="README-en.md">English</a> | 
-  <a href="README-ru.md">Русский</a>
-</div>
-```
-
-This approach keeps the documentation cleanly separated while providing clear navigation between language versions.
+---  
+**Язык**: [English](/README-en.md) | <img src="https://flagcdn.com/w20/gb.png" width="20" alt="English">  
