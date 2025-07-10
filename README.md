@@ -17,7 +17,7 @@ Edit in both files:
 - `PORT = 12345` → Custom port (ensure firewall allows it)  
 
 ---  
-**Language**: [Русский](/README-ru.md) | <img src="https://flagcdn.com/w20/ru.png" width="20" alt="Russian">  
+
 
 # 🗨️ Простой чат на Python  
 
@@ -38,4 +38,3 @@ Edit in both files:
 - `PORT = 12345` → Порт (должен быть открыт в брандмауэре)  
 
 ---  
-**Язык**: [English](/README-en.md) | <img src="https://flagcdn.com/w20/gb.png" width="20" alt="English">  
